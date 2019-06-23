@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const rsvpSchema = mongoose.Schema({
   firstName: String,
   lastName: String,

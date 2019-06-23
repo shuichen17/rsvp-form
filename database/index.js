@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 mongoose.connect('mongodb://localhost/rsvp');
 
 const db = mongoose.connection;
@@ -8,7 +9,10 @@ db.on('error', () => {
 });
 
 db.once('open', () => {
-  console.log('mongoose connected successfully');
-});
+  
+   console.log('mongoose connected successfully');
+}
+  
+);
 
 module.exports = db;
