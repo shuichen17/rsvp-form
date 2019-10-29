@@ -25,7 +25,7 @@
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.1.2",
+    "mongoose": "^5.7.5",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.4"
   }
