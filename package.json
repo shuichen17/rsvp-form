@@ -12,7 +12,7 @@
   "author": "Anthony Pecchillo",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.5",
     "jquery": "^3.3.1",
     "react": "^16.3.1",
